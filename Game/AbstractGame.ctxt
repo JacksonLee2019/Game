@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=rows\ cols
+comment0.target=AbstractGame(int,\ int)
+comment0.text=\r\n\ Basic\ game\ constructor\:\ sets\ up\ grid\ of\ given\ size,\ initializes\r\n\ elementary\ game\ parameters\ (these\ can\ be\ changed\ in\ the\ descendant\ class\r\n\ if\ user\ wants\ to\ make\ the\ game\ look/act\ differently).\r\n\r\n\ @param\ rows\ Number\ of\ rows\ in\ the\ game-screen.\r\n\ @param\ cols\ Number\ of\ columns\ in\ the\ game-screen.\r\n
+comment1.params=
+comment1.target=void\ play()
+comment1.text=\r\n\ Method\ that\ is\ called\ by\ the\ system\ to\ make\ the\ game-play\ happen.\r\n
+comment2.params=
+comment2.target=void\ updateTitle()
+comment3.params=
+comment3.target=void\ move()
+comment4.params=
+comment4.target=void\ populateRightEdge()
+comment5.params=
+comment5.target=void\ scrollLeft()
+comment6.params=row\ col
+comment6.target=void\ handleCollision(int,\ int)
+comment7.params=
+comment7.target=int\ getScore()
+comment8.params=
+comment8.target=boolean\ isGameOver()
+numComments=9
